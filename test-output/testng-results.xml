@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-10-03T16:55:56Z" name="Suite" finished-at="2019-10-03T16:56:01Z" duration-ms="4698">
+  <suite started-at="2019-10-31T00:40:16Z" name="Default suite" finished-at="2019-10-31T00:40:30Z" duration-ms="13694">
     <groups>
     </groups>
-    <test started-at="2019-10-03T16:55:56Z" name="Test" finished-at="2019-10-03T16:56:01Z" duration-ms="4698">
+    <test started-at="2019-10-31T00:40:16Z" name="Default test" finished-at="2019-10-31T00:40:30Z" duration-ms="13694">
       <class name="testCases.TC_VideoGameAPI">
-        <test-method signature="test_getAllVideoGames()[pri:1, instance:testCases.TC_VideoGameAPI@4988d8b8]" started-at="2019-10-03T16:55:56Z" name="test_getAllVideoGames" finished-at="2019-10-03T16:55:59Z" duration-ms="2666" status="PASS">
+        <test-method signature="test_getAllVideoGames()[pri:1, instance:testCases.TC_VideoGameAPI@71e9ddb4]" started-at="2019-10-31T00:40:16Z" name="test_getAllVideoGames" finished-at="2019-10-31T00:40:25Z" duration-ms="8783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_getAllVideoGames -->
-        <test-method signature="test_addNewVideoGame()[pri:2, instance:testCases.TC_VideoGameAPI@4988d8b8]" started-at="2019-10-03T16:55:59Z" name="test_addNewVideoGame" finished-at="2019-10-03T16:56:00Z" duration-ms="891" status="PASS">
+        <test-method signature="test_addNewVideoGame()[pri:2, instance:testCases.TC_VideoGameAPI@71e9ddb4]" started-at="2019-10-31T00:40:25Z" name="test_addNewVideoGame" finished-at="2019-10-31T00:40:26Z" duration-ms="979" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_addNewVideoGame -->
-        <test-method signature="test_getVideoGame()[pri:3, instance:testCases.TC_VideoGameAPI@4988d8b8]" started-at="2019-10-03T16:56:00Z" name="test_getVideoGame" finished-at="2019-10-03T16:56:01Z" duration-ms="901" status="PASS">
+        <test-method signature="test_getVideoGame()[pri:3, instance:testCases.TC_VideoGameAPI@71e9ddb4]" started-at="2019-10-31T00:40:26Z" name="test_getVideoGame" finished-at="2019-10-31T00:40:27Z" duration-ms="697" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_getVideoGame -->
-        <test-method signature="test_UpdateVideoGame()[pri:4, instance:testCases.TC_VideoGameAPI@4988d8b8]" started-at="2019-10-03T16:56:01Z" name="test_UpdateVideoGame" finished-at="2019-10-03T16:56:01Z" duration-ms="92" status="PASS">
+        <test-method signature="test_UpdateVideoGame()[pri:4, instance:testCases.TC_VideoGameAPI@71e9ddb4]" started-at="2019-10-31T00:40:27Z" name="test_UpdateVideoGame" finished-at="2019-10-31T00:40:27Z" duration-ms="87" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_UpdateVideoGame -->
-        <test-method signature="test_DeleteVideoGame()[pri:5, instance:testCases.TC_VideoGameAPI@4988d8b8]" started-at="2019-10-03T16:56:01Z" name="test_DeleteVideoGame" finished-at="2019-10-03T16:56:01Z" duration-ms="55" status="PASS">
+        <test-method signature="test_DeleteVideoGame()[pri:5, instance:testCases.TC_VideoGameAPI@71e9ddb4]" started-at="2019-10-31T00:40:27Z" name="test_DeleteVideoGame" finished-at="2019-10-31T00:40:30Z" duration-ms="3048" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_DeleteVideoGame -->
       </class> <!-- testCases.TC_VideoGameAPI -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

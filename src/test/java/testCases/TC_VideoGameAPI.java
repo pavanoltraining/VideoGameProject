@@ -18,10 +18,11 @@ public class TC_VideoGameAPI {
 		given()
 		
 		.when()
-			.get("http://localhost:8080/app/videogames")
+			.get("http://localhost:8081/app/videogames")
 
 		.then()
 			.statusCode(200);
+			//.header("content-type", "application/json");
 	}
 	
 	@Test(priority=2)
@@ -40,7 +41,7 @@ public class TC_VideoGameAPI {
 				.contentType("application/json")
 				.body(data)
 			.when()
-				.post("http://localhost:8080/app/videogames")
+				.post("http://localhost:8081/app/videogames")
 				
 			.then()
 				.statusCode(200)
@@ -57,7 +58,7 @@ public class TC_VideoGameAPI {
 	{
 		given()
 		.when()
-			.get("http://localhost:8080/app/videogames/100")
+			.get("http://localhost:8081/app/videogames/100")
 		.then()
 			.statusCode(200)
 			.log().body()
@@ -81,7 +82,7 @@ public class TC_VideoGameAPI {
 			.contentType("application/json")
 			.body(data)
 		.when()
-			.put("http://localhost:8080/app/videogames/100")
+			.put("http://localhost:8081/app/videogames/100")
 		.then()
 			.statusCode(200)
 			.log().body()
@@ -96,7 +97,7 @@ public class TC_VideoGameAPI {
 		Response res=
 		given()
 		.when()
-			.delete("http://localhost:8080/app/videogames/100")
+			.delete("http://localhost:8081/app/videogames/100")
 		.then()
 			.statusCode(200)
 			.log().body()
