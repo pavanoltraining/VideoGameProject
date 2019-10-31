@@ -4,6 +4,7 @@
   <test thread-count="2" name="Test">
     <classes>
       <class name="testCases.TC_VideoGameAPI"/>
+       <class name="testCases.TC_AddVideoGameDDT"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

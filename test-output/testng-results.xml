@@ -1,33 +1,373 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-10-31T00:40:16Z" name="Default suite" finished-at="2019-10-31T00:40:30Z" duration-ms="13694">
+  <suite started-at="2019-10-31T01:19:51Z" name="Default suite" finished-at="2019-10-31T01:20:02Z" duration-ms="10035">
     <groups>
     </groups>
-    <test started-at="2019-10-31T00:40:16Z" name="Default test" finished-at="2019-10-31T00:40:30Z" duration-ms="13694">
-      <class name="testCases.TC_VideoGameAPI">
-        <test-method signature="test_getAllVideoGames()[pri:1, instance:testCases.TC_VideoGameAPI@71e9ddb4]" started-at="2019-10-31T00:40:16Z" name="test_getAllVideoGames" finished-at="2019-10-31T00:40:25Z" duration-ms="8783" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_getAllVideoGames -->
-        <test-method signature="test_addNewVideoGame()[pri:2, instance:testCases.TC_VideoGameAPI@71e9ddb4]" started-at="2019-10-31T00:40:25Z" name="test_addNewVideoGame" finished-at="2019-10-31T00:40:26Z" duration-ms="979" status="PASS">
+    <test started-at="2019-10-31T01:19:51Z" name="Default test" finished-at="2019-10-31T01:20:02Z" duration-ms="10035">
+      <class name="testCases.TC_AddVideoGameDDT">
+        <test-method signature="test_addNewVideoGame(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testCases.TC_AddVideoGameDDT@5aebe890]" started-at="2019-10-31T01:19:54Z" name="test_addNewVideoGame" data-provider="Data" finished-at="2019-10-31T01:19:59Z" duration-ms="4753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[101]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hide-and-seek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2019-09-20T08:55:58.510Z]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Adventure]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Universal]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_addNewVideoGame -->
-        <test-method signature="test_getVideoGame()[pri:3, instance:testCases.TC_VideoGameAPI@71e9ddb4]" started-at="2019-10-31T00:40:26Z" name="test_getVideoGame" finished-at="2019-10-31T00:40:27Z" duration-ms="697" status="PASS">
+        <test-method signature="test_addNewVideoGame(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testCases.TC_AddVideoGameDDT@5aebe890]" started-at="2019-10-31T01:19:59Z" name="test_addNewVideoGame" data-provider="Data" finished-at="2019-10-31T01:19:59Z" duration-ms="86" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Musical chairs]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2019-09-20T08:55:58.510Z]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Adventure]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Universal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_addNewVideoGame -->
+        <test-method signature="test_addNewVideoGame(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testCases.TC_AddVideoGameDDT@5aebe890]" started-at="2019-10-31T01:19:59Z" name="test_addNewVideoGame" data-provider="Data" finished-at="2019-10-31T01:19:59Z" duration-ms="103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[103]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Charades]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2019-09-20T08:55:58.510Z]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Adventure]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Universal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_addNewVideoGame -->
+        <test-method signature="test_addNewVideoGame(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testCases.TC_AddVideoGameDDT@5aebe890]" started-at="2019-10-31T01:19:59Z" name="test_addNewVideoGame" data-provider="Data" finished-at="2019-10-31T01:19:59Z" duration-ms="158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[104]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pictionary]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2019-09-20T08:55:58.510Z]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Adventure]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Universal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_addNewVideoGame -->
+        <test-method signature="test_addNewVideoGame(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testCases.TC_AddVideoGameDDT@5aebe890]" started-at="2019-10-31T01:19:59Z" name="test_addNewVideoGame" data-provider="Data" finished-at="2019-10-31T01:19:59Z" duration-ms="85" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[105]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Spider-Man]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2019-09-20T08:55:58.510Z]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Adventure]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Universal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_addNewVideoGame -->
+        <test-method signature="test_getVideoGame(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testCases.TC_AddVideoGameDDT@5aebe890]" started-at="2019-10-31T01:20:00Z" name="test_getVideoGame" data-provider="Data" finished-at="2019-10-31T01:20:01Z" duration-ms="786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[101]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hide-and-seek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2019-09-20T08:55:58.510Z]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Adventure]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Universal]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_getVideoGame -->
-        <test-method signature="test_UpdateVideoGame()[pri:4, instance:testCases.TC_VideoGameAPI@71e9ddb4]" started-at="2019-10-31T00:40:27Z" name="test_UpdateVideoGame" finished-at="2019-10-31T00:40:27Z" duration-ms="87" status="PASS">
+        <test-method signature="test_getVideoGame(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testCases.TC_AddVideoGameDDT@5aebe890]" started-at="2019-10-31T01:20:01Z" name="test_getVideoGame" data-provider="Data" finished-at="2019-10-31T01:20:01Z" duration-ms="99" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Musical chairs]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2019-09-20T08:55:58.510Z]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Adventure]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Universal]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_UpdateVideoGame -->
-        <test-method signature="test_DeleteVideoGame()[pri:5, instance:testCases.TC_VideoGameAPI@71e9ddb4]" started-at="2019-10-31T00:40:27Z" name="test_DeleteVideoGame" finished-at="2019-10-31T00:40:30Z" duration-ms="3048" status="PASS">
+        </test-method> <!-- test_getVideoGame -->
+        <test-method signature="test_getVideoGame(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testCases.TC_AddVideoGameDDT@5aebe890]" started-at="2019-10-31T01:20:01Z" name="test_getVideoGame" data-provider="Data" finished-at="2019-10-31T01:20:01Z" duration-ms="111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[103]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Charades]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2019-09-20T08:55:58.510Z]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Adventure]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Universal]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_DeleteVideoGame -->
-      </class> <!-- testCases.TC_VideoGameAPI -->
+        </test-method> <!-- test_getVideoGame -->
+        <test-method signature="test_getVideoGame(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testCases.TC_AddVideoGameDDT@5aebe890]" started-at="2019-10-31T01:20:01Z" name="test_getVideoGame" data-provider="Data" finished-at="2019-10-31T01:20:01Z" duration-ms="122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[104]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pictionary]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2019-09-20T08:55:58.510Z]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Adventure]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Universal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getVideoGame -->
+        <test-method signature="test_getVideoGame(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testCases.TC_AddVideoGameDDT@5aebe890]" started-at="2019-10-31T01:20:01Z" name="test_getVideoGame" data-provider="Data" finished-at="2019-10-31T01:20:01Z" duration-ms="94" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[105]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Spider-Man]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2019-09-20T08:55:58.510Z]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Adventure]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Universal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getVideoGame -->
+      </class> <!-- testCases.TC_AddVideoGameDDT -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
